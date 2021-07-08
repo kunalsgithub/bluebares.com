@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+	margin:0;
+	padding:0;
+    box-sizing: border-box;
+}
+.hero{
+	width:100%;
+	min-height:100vh;
+	background:linear-gradient(45deg, #020724, #10484a);
+	padding-right:10%;
+	padding-left:10%;
+	padding-top:7%;
+	box-sizing:border-box;
+	color:black;
+	position:relative;
+	z-index:1;
+	overflow:hidden;
+}
+.columns {
+  float: left;
+  width: 33.3%;
+  padding: 8px;
+}
+
+.price {
+  list-style-type: none;
+  <!-- border: 1px solid #eee; -->
+  margin: 0;
+  padding: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.price:hover {
+  box-shadow: 0 10px 12px 0 rgba(0.5,0,0.2,0.5)
+}
+
+.price .header {
+  background-color: #13424f;
+  color: white;
+  font-size: 25px;
+}
+
+.price li {
+  border-bottom: 1px solid #eee;
+  padding: 20px;
+  text-align: center;
+  color:white;
+}
+
+.price .grey {
+  background-color:transparent;
+  font-size: 20px;
+}
+
+.button {
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.head{
+	text-align:center;
+	font-size:20px;
+	font-family:Fugaz One;
+	color:white;
+	<!-- padding-top:-20%; -->
+}
+
+
+@media only screen and (max-width: 600px) {
+.columns {
+    width: 100%;
+}
+  
+.header{
+	
+}
+}
+</style>
+</head>
+<body>
+
+
+ <div class="hero">
+	<!-- <div class="head"><h1>Plans</h1></div> -->
+	<div class="columns">
+		<ul class="price">
+		<li class="header" style="border-radius:30px;">Basic</li>
+		<li class="grey">$ 69.99 / Start Mambership</li>
+		<li>$ 14.99 / Month</li>
+		<li>Domain Name</li>
+		<li>Responsive Website</li>
+		<li>Proffesinal Email</li>
+		<li>Landing Page Website</li>
+		<li>-</li>
+		<li class="grey"><a href="#" class="button" style="border-radius:30px;">Buy Now</a></li>
+		</ul>
+	</div>
+
+	<div class="columns">
+		<ul class="price">
+		<li class="header" style="border-radius:27px;">Pro</li>
+		<li class="grey">$ 69.99 / Start Mambership</li>
+		<li>$ 24.99 / Month</li>
+		<li>Domain Name</li>
+		<li>Responsive Website</li>
+		<li>Proffesinal Email</li>
+		<li>Single Page Website</li>
+		<li>On Demand Manager</li>
+		<li class="grey"><a href="#" class="button" style="border-radius:30px;">Buy Now</a></li>
+		</ul>
+	</div>
+
+	<div class="columns">
+		<ul class="price">
+		<li class="header" style="border-radius:27px;">Premium</li>
+		<li class="grey">$ 69.99 / Start Mambership</li>
+		<li>$ 49.99 / Month</li>
+		<li>Domain Name</li>
+		<li>Responsive Website</li>
+		<li>Proffesinal Email</li>
+		<li>Custumizable Website</li>
+		<li>Personal Branding Manager 24x7</li>
+		<li class="grey"><a href="#" class="button"style="border-radius:30px;">Buy Now</a></li>
+		</ul>
+	</div>
+ </div>
+</body>
+</html>
